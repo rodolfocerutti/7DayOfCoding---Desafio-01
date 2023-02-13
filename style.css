@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor-branca: #ffffff;
+    --cor-vermelha: #8E2424; 
+    --cor-azul: #101828;
+    --cor-azul-claro: #667085;
+    --cor-vermelha-opacidade: rgba(142, 36, 36, 0.05);
+    --cor-footer: 152, 162, 179, 1;
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-branca);
+}
+
+
+/*Aqui começa o cabeçalho*/
+
+.cabecalho{
+    width: 100%;
+    margin: 44px 0;
+    background-color: var(--cor-branca);
+}
+
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 32px;
+    gap: 40px;
+}
+
+.cabecalho__menu__link{
+    padding: 0 32px 0 0;
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-azul-claro); 
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cabecalho__menu__botao{
+    background-color: var(--cor-vermelha);
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-size: 16px;
+    line-height: 24px;
+    transition: 0.3s all;
+}
+
+.cabecalho__menu__botao:hover{
+    background-color: #101828;
+}
+
+/*conteudo principal começa aqui*/
+
+.conteudo__principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+    gap: 24px;
+    text-align: center;
+}
+
+.conteudo__principal__titulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.conteudo__principal__paragrafo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-vermelha);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.conteudo__secundario__paragrafo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul-claro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*métricas*/
+
+.metricas{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding: 0 300px;
+}
+
+.informacao__metricas__titulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-vermelha);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.informacao__metricas__subtitulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.informcao__metricas__texto{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul-claro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*talentos*/
+
+.talentos{
+    text-align: center;
+    padding: 96px 0 32px 0;
+}
+
+.talentos__span{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-vermelha);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: var(--cor-vermelha-opacidade);
+    padding: 4px 12px;     
+    border-radius: 16px;
+}
+
+.titulo__talentos__principal{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    padding-top: 16px;
+}
+
+.talentos__texto{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul-claro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 16px 0 64px 0;
+}
+
+/*vagas*/
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 64px;
+}
+
+.titulo__area{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 32px 0 0 0;
+}
+
+.vagas__borda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid var(--cor-azul-claro);
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    margin: 0 0 24px 0;
+}
+
+.titulo__profissao{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.texto__vaga{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul-claro);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.texto__vaga > span{
+    padding-right: 24px;
+}
