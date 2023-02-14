@@ -238,7 +238,7 @@ body{
     background-color: var(--cor-vermelha-opacidade);
     border-radius: 16px;
     padding: 64px;
-    margin: 96px 150px 96px 150px;
+    margin: 96px 300px 96px 300px;
 }
 
 .depoimentos__texto{
