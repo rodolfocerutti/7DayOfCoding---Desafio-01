@@ -281,3 +281,58 @@ body{
 }
 
 /*formulario*/
+
+.formulario{
+    padding: 0 0 96px 0;
+}
+
+.formulario__infomacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario__input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px; 
+    gap: 8px
+}
+
+.input__padrao{
+    border-radius: 8px;
+    border: 1px solid var(--cor-azul);
+    width: 360px;
+    padding: 12px 14px 12px 16px;
+}
+
+.formulario__titulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.formulario__texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 32px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-azul-claro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
